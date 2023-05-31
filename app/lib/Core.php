@@ -1,4 +1,5 @@
 <?php
+require_once 'Seguridad.php';
 
 class Core
 {
@@ -7,6 +8,7 @@ class Core
   protected $method;
   protected $parameters = [];
 
+
   public function __construct()
   {
     $url = $this->getUrl();
@@ -14,23 +16,38 @@ class Core
     if(file_exists('../app/controllers/' . ucwords($url[0]) . '.php'))
     {
       $this->controller = ucwords($url[0]);
-      unset($url[0]);
+       unset($url[0]);
+       require_once '../app/controllers/' . $this->controller . '.php';
+       $this->controller = new $this->controller;
+  
+     if(isset($url[1]))
+     {
+       if(method_exists($this->controller, $url[1]))
+       {
+         $this->method = $url[1];
+         unset($url[1]);
+       }
+       else{
+        $this -> redireccionarInicio();
+       }
+     }
+  
+     $this->parameters = $url ? array_values($url) : [];
+     call_user_func_array([$this->controller, $this->method], $this->parameters);
+   
+
+      
     }
-
-    require_once '../app/controllers/' . $this->controller . '.php';
-    $this->controller = new $this->controller;
-
-    if(isset($url[1]))
-    {
-      if(method_exists($this->controller, $url[1]))
-      {
-        $this->method = $url[1];
-        unset($url[1]);
-      }
+    else{
+      $this -> redireccionarInicio();
     }
+     
 
-    $this->parameters = $url ? array_values($url) : [];
-    call_user_func_array([$this->controller, $this->method], $this->parameters);
+   
+
+    
+
+    
   }
 
   public function getUrl()
@@ -43,5 +60,13 @@ class Core
 
       return $url;
     }
+
+    
   }
+
+  public function redireccionarInicio(){
+    
+    Seguridad::redireccionar();
+  }
+  
 }
