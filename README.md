@@ -1,4 +1,4 @@
-Basado en una plantilla de mvc-php de Ulises AFC. 
+Basado en una plantilla de mvc-php. 
 Php puro 
 Url amigable 
 Uso de procedimientos almacenados y view con mysql
