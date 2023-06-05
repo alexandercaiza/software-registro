@@ -5,8 +5,6 @@ class modeloDepartamento
     public $db;
     public $valor;
     public function __construct(){
-        //$this -> conexion = new Database;
-        //$this -> conexion -> estaConectado();
         $mysqli = new Database();
         $this -> db = $mysqli -> estaConectado();
     }
@@ -21,6 +19,9 @@ class modeloDepartamento
             if($stmt -> fetch()){
                $valor_retorno =  $estado;
 
+            }
+            else{
+                $valor_retorno =  "sin valor";
             }
          
             $stmt -> close();
