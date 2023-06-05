@@ -1,0 +1,125 @@
+[33mcommit a887fc3845f21978c3007f54a9f6b13e82b19c3b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: alexandercaiza <alexandero932@gmail.com>
+Date:   Mon Jun 5 16:30:23 2023 -0500
+
+    agrego el insert persona
+
+[33mcommit e7e5253544c44f49be181044a320631efae36f3b[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: alexandercaiza <alexandero932@gmail.com>
+Date:   Wed May 31 14:00:45 2023 -0500
+
+    prototipo de registro uno
+
+[33mcommit f86a4d0fa6d09d6088ee04fc9c92bebac2ded053[m
+Author: Ulises AFC <87951988+ulisesafcdev@users.noreply.github.com>
+Date:   Thu Nov 10 12:35:58 2022 -0600
+
+    Create README.md
+
+[33mcommit ee9fa206754caa4e79b8e4982c4bce89eefb986f[m
+Author: ulisesafcdev <ulisesafc2020@gmail.com>
+Date:   Thu Nov 10 12:24:23 2022 -0600
+
+    modelos de base de datos
+
+[33mcommit 66679d4fcf36149d0d1239a8b93828e672dfaa52[m
+Author: ulisesafcdev <ulisesafc2020@gmail.com>
+Date:   Thu Nov 10 12:23:43 2022 -0600
+
+    ficheros que son ayuda en caso que los necesitemos
+
+[33mcommit b69503650070a4882b7a77896532a737d7969dca[m
+Author: ulisesafcdev <ulisesafc2020@gmail.com>
+Date:   Thu Nov 10 12:17:12 2022 -0600
+
+    configuracion del servidor, se encarga de cargar el index al abrir el proyecto
+
+[33mcommit 1d319e49ca5228b1ad4272681c45ccfffa372ba9[m
+Author: ulisesafcdev <ulisesafc2020@gmail.com>
+Date:   Thu Nov 10 12:15:36 2022 -0600
+
+    configuracion del servidor, evita el acceso a la carpeta app
+
+[33mcommit c21b75407b57a4664fda62bbc78a3cb0a591b2d5[m
+Author: ulisesafcdev <ulisesafc2020@gmail.com>
+Date:   Thu Nov 10 12:14:43 2022 -0600
+
+    Carga las librerias del proyecto para que funcione
+
+[33mcommit 76ba80af3555437d66c5a5d9cc539117ffbcadd0[m
+Author: ulisesafcdev <ulisesafc2020@gmail.com>
+Date:   Thu Nov 10 12:12:56 2022 -0600
+
+    Paginas del proyecto (vistas) que son cargadas desde el controlador
+
+[33mcommit 7049461adaca0a0da365bba26cd693d89fbc45c4[m
+Author: ulisesafcdev <ulisesafc2020@gmail.com>
+Date:   Thu Nov 10 12:11:58 2022 -0600
+
+    Footer y cierre de etiquetas HTML
+
+[33mcommit 761ff46e842f479644b54e06890b5d0c88170577[m
+Author: ulisesafcdev <ulisesafc2020@gmail.com>
+Date:   Thu Nov 10 12:11:18 2022 -0600
+
+    Cabezera HTML
+
+[33mcommit ff6e9db512c9bbeb6725222cd997a13cbdb06ee2[m
+Author: ulisesafcdev <ulisesafc2020@gmail.com>
+Date:   Thu Nov 10 12:09:55 2022 -0600
+
+    Clase que se encarga de mapear la URL
+
+[33mcommit b7116fa7fba452fb4835f77b3312941d0f03a28d[m
+Author: ulisesafcdev <ulisesafc2020@gmail.com>
+Date:   Thu Nov 10 12:08:10 2022 -0600
+
+    Clase con metodos que se encargan de requerir las vistas y modelos
+
+[33mcommit ff475f4d543900ef72bb195c97f0f6eff04c47f8[m
+Author: ulisesafcdev <ulisesafc2020@gmail.com>
+Date:   Thu Nov 10 12:03:12 2022 -0600
+
+    un controlador de prueba que extiende de otro archivo para cargar vistas y modelos
+
+[33mcommit f17f2cca6856b27abaad43d8b6ae44a73bb254de[m
+Author: ulisesafcdev <ulisesafc2020@gmail.com>
+Date:   Thu Nov 10 11:58:44 2022 -0600
+
+    Establescemos constantes con el valor de las rutas del proyecto
+
+[33mcommit 51f36bc94ecf6a86f2c9f87d9510eb5843fa116b[m
+Author: ulisesafcdev <ulisesafc2020@gmail.com>
+Date:   Thu Nov 10 11:57:51 2022 -0600
+
+    configuracion del servidor, evita las multiviews y redirecciona al index
+
+[33mcommit ddd07454fd8fd2074fba5fbb8b85ec1ecb87b761[m
+Author: ulisesafcdev <ulisesafc2020@gmail.com>
+Date:   Thu Nov 10 11:55:34 2022 -0600
+
+    Index del proyecto donde se carga el iniciador de la logica de negocio
+
+[33mcommit 541f1037f207582e1c9cb8fa0ec89c644382e0e8[m
+Author: ulisesafcdev <ulisesafc2020@gmail.com>
+Date:   Thu Nov 10 11:32:37 2022 -0600
+
+    Archivo JS general
+
+[33mcommit 4f8f49b4a9d86006bc6611480d61c291732e1d64[m
+Author: ulisesafcdev <ulisesafc2020@gmail.com>
+Date:   Thu Nov 10 11:31:55 2022 -0600
+
+    Archivo JS de bootstrap para los estilos
+
+[33mcommit 5e0abc9c2678d2bcc37a67e145bfb86d5edb6a9c[m
+Author: ulisesafcdev <ulisesafc2020@gmail.com>
+Date:   Thu Nov 10 11:28:15 2022 -0600
+
+    Estilos generales CSS
+
+[33mcommit dc32ca430f340fa679c9c715c48aabe3d3cf6106[m
+Author: ulisesafcdev <ulisesafc2020@gmail.com>
+Date:   Thu Nov 10 11:27:55 2022 -0600
+
+    Framework Bootstrap CSS para los estilos
